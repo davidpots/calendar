@@ -69,6 +69,12 @@
   box-shadow: 0px 2px 12px rgba(115,131,140,0.15);
   padding: 12px;
   position: relative;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.tile:hover {
+  box-shadow: 0px 4px 24px rgba(115,131,140,0.45);
+  cursor: pointer;
 }
 
 /* ---- */
